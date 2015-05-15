@@ -1,0 +1,14 @@
+[cuda]
+root = /Developer/NVIDIA/CUDA-5.5
+
+[global]
+device = gpu0
+floatX = float32
+warn_float64 = warn
+allow_gc = False
+mode = FAST_RUN
+optimizer = fast_run
+linker = cvm_nogc
+
+[nvcc]
+fastmath = True

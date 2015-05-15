@@ -1,0 +1,5 @@
+channels:
+  - https://conda.binstar.org/eivind88
+  - defaults
+
+binstar_upload: yes
